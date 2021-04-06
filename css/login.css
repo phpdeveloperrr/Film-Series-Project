@@ -1,0 +1,89 @@
+#login-bg-img{
+    background-image: url(../Assets/login-page-Background.png);
+    background-size: cover;
+    background-position: center center;
+}
+.login-main{
+    background: #000000bf;
+    max-width: 28%;
+    margin: 0 auto;
+    top: 150px;
+}
+@media (min-width: 200px) and (max-width: 980px) {
+  
+    .login-main{ 
+        max-width: 100%;
+    }
+
+}
+.login-main .logo-img{
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.login-main .logo-img a{
+    text-decoration: none;
+}
+.login-main .logo-img img{
+    width: 100%;
+}
+.login-heading{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: -45px;
+}
+@media (min-width: 200px) and (max-width: 980px) {
+  
+    .login-heading{ 
+        margin-left: 0px;
+    }
+
+}
+.login-form #email,
+.login-form #pwd{
+    margin: 0px auto;
+    background: #333333;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.login-form #email:focus,
+.login-form #pwd:focus{
+    box-shadow: none;
+}
+.login-form .check-box{
+    color: #FADB19;
+    font-weight: 600;
+}
+.submit-btn{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.submit-btn .login-btn{
+    background: #FFDF19;
+    color: black;
+    font-weight: 600;
+    border: 0;
+    margin-left: -10px;
+}
+.submit-btn .login-btn:focus{
+    box-shadow: none;
+}
+.submit-btn a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 8px;
+}
+@media (min-width: 200px) and (max-width: 1000px) {
+  
+    .submit-btn .login-btn{ 
+        margin-left: -180px;
+    }
+
+}
+

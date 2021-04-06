@@ -1,0 +1,252 @@
+/* Main Single Page Start */
+
+.single-main-bg{
+    background-image: url(../Assets/captain-america-civil.jpg) !important;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.single-post-main{
+    background: #00000096;
+}
+.single-post-content {
+    position: relative;
+}
+.single-post-content h1{
+    color: white;
+    text-align: right;
+    margin-top: 15px;
+}
+.single-post-content span{
+    color: #FFDF19;
+}
+.single-page-icon{
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    left: 35px;
+}
+.single-page-icon a{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    padding-top: 8px;
+    text-decoration: none;
+    background: #2196F3;
+    border-radius: 20px;
+    color: white !important;
+}
+.facebook-icon,
+.twiter-icon{
+    position: absolute;
+    top: 0px;
+}
+.single-post-content ul{
+    text-align: right;
+}
+.single-post-content ul li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+.single-post-content ul li img{
+    width: 20px;
+    margin-right: 10px;
+}
+.single-post-content .btn-1,
+.single-post-content .btn-2,
+.single-post-content .btn-3{
+    float: right;
+    margin-left: 15px;
+    background: #E4E9EB;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
+.single-post-content p{
+    color: white;
+    text-align: right;
+    clear: both;
+    margin-top: 50px !important;
+}
+.single-post-content .single-post-quality ul li{
+    display: inline-block;
+    color: white;
+}
+.single-post-director img{
+    margin-left: 10px;
+}
+.single-post-img img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+/* Main Single Page END */
+    /* Video Start */
+
+.video-post{
+    background: #282828;
+    margin-top: 50px;
+}
+.video-post-content{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.video-post-content ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+.video-post-content ul li img{
+    width: 100px;
+}
+.video-post-bottom-content{
+    background: #1A1A1A;
+    height: 70px;
+    text-align: center;
+}
+.video-post-bottom-content li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.video-post-bottom-content img{
+    width: 20px;
+    margin-right: 17px;
+
+}
+.video-post-bottom-content a{
+    text-decoration: none;
+    color: white;
+}
+.video-post-bottom-content p{
+    color: white;
+    font-size: 12px;
+    margin-top: 7px;
+}
+.video-post-bottom-content-cate{
+    margin-left: 30px;
+}
+/* Video END */
+/* Rating Start */
+.video-post-rating{
+    background: #000000b0;
+}
+.video-post-rating-content{
+    text-align: center;
+}
+.video-post-rating-content p{
+    color: white;
+    margin-top: 10px;
+}
+.video-post-rating-content ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+}
+.video-post-rating-content ul li a{
+    text-decoration: none;
+}
+.video-post-rating-content ul li img{
+    width: 20px;
+    margin-right: 10px;
+} 
+.video-post-content-hr{
+    background: #E9CC17;
+    text-align: center;
+}
+.video-next-prev{
+    text-align: center;
+}
+.video-next-prev ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 28px;
+    margin-left: 3px;
+}
+.video-next-prev ul li a{
+    text-decoration: none;
+    color: white;
+}
+.video-next-prev ul li img{
+    width: 20px;
+    margin-right: 10px;
+}
+/* Rating END */
+/* Movies Server Start */
+.main-movie-server-bg{
+    background-image: url(../Assets/19-Doctor-Strange-Marvel-Comic-HD-Wallpaper.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.main-movie-server{
+    background: #635d1f82;
+}
+.main-movie-server-heading{
+    background: black;
+    height: 44px;
+    border-radius: 30px;
+    top: 70px;
+    padding: 2px;
+}
+.main-movie-server-heading h2{
+    color: #BFA712;
+    padding: -18px;
+    text-align: center;
+}
+.main-movie-server-content h3{
+    color: black;
+    margin-top: 30px;
+}
+.main-movie-server-content img{
+    width: 20px;
+    margin-left: 18px;
+}
+.main-movie-server-content a{
+    text-decoration: none;
+    color: white;
+   
+}
+.main-movie-server-content h4{
+    background: #212121;
+    height: 45px;
+    text-align: center;
+    border: 2px solid black;
+}
+/* Movies Server END */
+
+/* Movies Server INFO start */
+.movie-server-info h5{
+    color: white;
+    font-size: 14px;
+}
+.movie-server-info h6{
+    color: white;
+    font-size: 19px;
+}
+.movie-server-info span{
+    color: #BFA712;
+}
+/* Movies Server INFO END */
+
+/* Form START   */
+.single-form-heading{
+    color: white;
+    margin-top: 25px;
+} 
+.single-post-form label{
+    color: white;
+    margin-top: 25px;
+}
+.single-post-form-btn{
+    color: black;
+    background-color: #FFDF19;
+    border-color: #FFDF19;
+    font-weight: bold;
+}
+/* Form END   */
